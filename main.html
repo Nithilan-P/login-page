@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <center><div class="container">
+        <h1 id="heading">Start Building</h1>
+        <p id="para">Create your BuildOS account and ship your first project.</p>
+
+        <h5 id="first_h5">NAME</h5>
+        <input class="input" id="name" placeholder="Your Name">
+
+        <h5 id="second_h5">EMAIL ADDRESS</h5>
+        <input class="input" id="email" type="email" placeholder="you@example.com">
+
+        <h5 id="third_h5">PASSWORD</h5>
+        <input class="input" id="password" type="password" placeholder="Min. 8 characters                                            👁️ ">
+
+        <h5 id="fourth_h5">CONFIRM PASSWORD</h5>
+        <input class="input" id="confirm-password" type="password" placeholder="••••••••">
+
+        <button id="btn" onclick="showData()">⚡ Activate Builder Mode</button>
+
+        <h6 id="h6">——————— OR CONTINUE WITH ———————</h6>
+
+
+        <button id="github" >GitHub</button>
+        <button id="google">Google</button>
+    </div></center>
+</body>
+</html>
+
+
+<script>
+    //selecting the things to maninputlate
+
+    var nameinput=document.getElementById("name")
+    var emailinput=document.getElementById("email")
+    var passwordinput=document.getElementById("password")
+    var confirmpasswordinput=document.getElementById("confirm-password")
+
+
+let alreadyShown=false;    
+    
+    function showData()
+    {   
+        if(alreadyShown) return;
+        alreadyShown=true;
+        
+        
+        // create new block
+        var newelement = document.createElement("div")
+        newelement.className = "newblock"
+
+        // add content
+        newelement.innerHTML = `
+        <center><h2 id="user-details">User Details</h2>
+        <h4>Name: ${nameinput.value}</h4>
+        <h4>Email: ${emailinput.value}</h4>
+        <h4>Password: ${passwordinput.value}</h4>
+        <h4>Confirm Password: ${confirmpasswordinput.value}</h4></center>
+        `
+
+        // add the block to the body (below your login section)
+        document.body.append(newelement)
+    }
+</script>

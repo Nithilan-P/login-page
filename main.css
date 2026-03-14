@@ -1,0 +1,135 @@
+body{
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    height: 800px;
+    margin-top: 50px;
+    width: 400px;
+    background-color: #192744;
+    border-radius: 20px;
+}
+
+#heading{
+    padding-top: 35px;
+    color: white;
+    font-family: polaris, sans-serif;
+}
+
+#para{
+    color: gray;
+}
+
+#first_h5{
+    padding-right: 265px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-family: polaris, sans-serif;
+    color: white;
+}
+
+#second_h5{
+    padding-right: 195px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-family: polaris, sans-serif;
+    color: white;
+}
+
+#third_h5{
+    padding-right: 225px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-family: polaris, sans-serif;
+    color: white;
+}
+
+#fourth_h5{
+    padding-right: 160px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-family: polaris, sans-serif;
+    color: white;
+}
+
+
+.input{
+    margin-right: 1px;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    background-color: #0f172a;
+    color: white;
+    border: 1px solid #0f172a ;
+}
+
+#btn{
+    background-color: #33c228;
+    margin-top: 35px;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    box-shadow: 0 0 10px rgba(46, 227, 70, 0.708), 
+              0 0 20px rgba(54, 223, 57, 0.647), 
+              0 0 30px rgba(78, 234, 80, 0.536);
+}
+
+#btn:hover{
+    cursor: pointer;
+}
+
+#h6{
+    margin-top: 40px;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#github{
+    height: 40px;
+    width: 140px;
+    margin-right: 20px;
+    color: white;
+    background-color: #0f172a ;
+    border-radius: 7px;
+    border: solid 1px #0f172a;
+}
+
+
+#github:hover{
+    cursor: pointer;
+}
+
+#google{
+    height: 40px;
+    width: 140px;
+    color: white;
+    background-color: #0f172a;
+    border-radius: 7px;
+    border: solid 1px #0f172a;
+}
+
+#google:hover{
+    cursor: pointer;
+}
+
+
+.newblock{
+    height: 230px;
+    width: 400px;
+    background-color: #33C228;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+#user-details{
+    color: #192744;
+}
